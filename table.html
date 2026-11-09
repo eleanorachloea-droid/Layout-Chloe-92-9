@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Layout Website</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!-- Membuat Header -->
+        <div class="header">
+            <h1>HEADER</h1>
+        </div>
+        <!-- Membuat Menu / navigator bar -->
+        <div class="topnav">
+            <a href="index.html">Biodata</a>
+            <a href="table.html">Tabel</a>
+            <a href="List.html">List</a>
+            <a href="STS.html">STS</a>
+        </div>
+          <h2>Colspan dan Rowspan pada Table</h2>
+        <!-- colspan : menggabungkan kolom 
+         rowspan : menggabungkan baris-->
+        <table>
+            <tr>
+               <th rowspan="2">No</th>
+                <th rowspan="2">Nama</th>
+                <th colspan="2">Nilai</th>
+            </tr>
+            <tr>
+                <th>Ulangan 1</th>
+                <th>Ulangan 2</th>
+            </tr>
+            <tr> 
+                <td>1</td>
+                <td>Glori</td>
+                <td>90</td>
+                <td>92</td>
+            </tr>
+            <tr> 
+                <td>2</td>
+                <td>Jane</td>
+                <td>80</td>
+                <td>82</td>
+            </tr>
+            <tr> 
+                <td>3</td>
+                <td>Kayla</td>
+                <td>91</td>
+                <td>87</td>
+            </tr>
+            <tr> 
+                <td>4</td>
+                <td>Cili</td>
+                <td>88</td>
+                <td>92</td>
+            </tr>
+            <tr> 
+                <td>5</td>
+                <td>Sayla</td>
+                <td>86</td>
+                <td>82</td>
+            </tr>
+        </table>
+
+        <!-- Judul Tabel Marge (Posisinya di tengah) -->
+        <h1 class="judul-marge">Tabel Marge</h1>
+        
+        <!-- Tabel Marge Kustom (Garis merah, warna biru & cyan sesuai referensi) -->
+        <table class="tabel-marge-custom">
+            <tr>
+                <th rowspan="3"> A </th>
+                <th rowspan="2"> B </th>
+                <th colspan="2"> C </th>
+                <th rowspan="3"> D </th>
+                <th rowspan="4"> E </th>
+                <th rowspan="2"> N </th>
+                <th rowspan="6"> H </th>
+            </tr>
+            <tr>
+                <th> F </th>
+                <th> G </th>
+            </tr>
+            <tr>
+                <th> I </th>
+                <th> J </th>
+                <th> K </th>
+                <th rowspan="2"> O </th>
+            </tr>
+            <tr>
+                <th colspan="5"> M </th>
+            </tr>
+            <tr>
+                <th rowspan="2"> P </th>
+                <th colspan="2"> Q </th>
+                <th rowspan="2"> R </th>
+                <th> U </th>
+                <th> V </th>
+                <th> W </th>
+            </tr>
+            <tr>
+                <th> S </th>
+                <th> T </th>
+                <th> X </th>
+                <th> Y </th>
+                <th> Z </th>
+            </tr>
+        </table>
+
+        <div class="footer">
+            <p>Chloe 92/9</p>
+        </div>
+    </body>
+</html>
